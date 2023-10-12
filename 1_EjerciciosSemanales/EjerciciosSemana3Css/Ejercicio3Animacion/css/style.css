@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .loading-circle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #ff9a9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Define aquí tu animación (nombre, duración, repetición)*/
+    animation: transform 1.5s infinite linear;
+    animation-direction: alternate;
+  }
+  
+  /* Escribe aquí los keyframes de tu animación */
+  @keyframes transform{
+
+    0%{
+        background-color: yellowgreen;
+        transform: scale(1.1);
+    }
+
+    25%{
+        transform: scale(1.25);
+    }
+
+    50%{
+        background-color: aqua;
+        transform: scale(1.5);
+    }
+
+    75%{
+        transform: scale(1.75);
+    }
+
+    100%{
+        background-color: blueviolet;
+        transform: scale(2);
+    }
+
+  }

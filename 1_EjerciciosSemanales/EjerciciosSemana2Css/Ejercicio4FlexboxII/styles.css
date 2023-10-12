@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    
+  }
+
+                     /* Escribe aquí las reglas*/
+   
+        
+    /*items horizontales*/
+  menu{
+    display: flex;  
+  }
+
+  /*la lista ocupa el ancho de la pagina, sin quedar huecos y añado algo de alto para que se vea mejor*/
+  li{
+    width: 100%;
+    height: 50px;
+    display: flex;
+       
+     }
+
+  /*items cambiar de estilo al pasar el curso, color de fondo*/
+  a:hover{
+    background-color: rgb(221, 85, 203);
+    color: white;
+  }
+
+/*los enlaces ocupan todo el espacio vertical y horizontal de cada item de la lista, les pongo color de fondo para que se note mas el cambio del hover, les quito la linea de hipervinculo, y los centro para que quede mas ordenado*/
+  li>a{
+    background-color: rgb(108, 230, 223);
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+  }
+ 
+  

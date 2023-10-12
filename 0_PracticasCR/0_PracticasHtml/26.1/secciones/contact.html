@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ruth</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./about.html">Sobre mi</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contacto</h2>
+        <address>
+            <p>email:ruthvv@gmail.com</p>
+            <p>teléfono: +34 648 110 377</p>
+        </address>
+        <form action="" method="">
+        <fieldset>
+            <legend>Datos de Contacto</legend>
+            <ul>
+                <li>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" name="nombre">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" autocomplete="off" required>
+                </li>
+                <li>
+                    <label for="observaciones">Observaciones</label>
+                    <textarea name="observaciones" id="observaciones" cols="30" rows="10" minlength="3" maxlength="50" name="observaciones" placeholder="Escribe aqui lo que quieras"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+           
+        <fieldset>
+            <legend>Otros datos de interes</legend>
+            <ul>
+                <li>
+                    <label for="tel">Telefono</label>
+                    <input id="tel" type="tel" name="tel">
+                </li>
+                <li>
+                    <label for="favorito">Numero favorito</label>
+                    <input id="favorito" type="number" min="1" max="20" >
+                </li>
+                <li>
+                    <label for="color">Color favorito</label>
+                    <input id="color" type="color" name="color">
+                </li>
+                <li>
+                    <label for="date">Fecha de nacimiento</label>
+                    <input id="date" type="date" name="date">
+                </li>
+                <li>
+                    <label for="pasword">Contraseña</label>
+                    <input type="password" name="password" id="password">
+                </li>
+                <li>
+                    <label for="checkbox">Estoy de acuerdo con los terminos y condiciones</label>
+                    <input type="checkbox" name="checkbox" id="checkbox" value="si" checked>
+                </li>
+                <li>
+                    <label for="amigo">¿Quieres ser mi amigo?</label>
+                    <input type="radio" name="amigo" id="amigo" value="si" checked>Sí
+                    <input type="radio" name="amigo" id="amigo" value="no">No
+                </li>
+                <li>
+                    <label for="comida"></label>
+                    <select name="comida" id="comida">Tu comida favorita
+                        <option value="" selected disabled>Seleccione su comida favorita</option>
+                        <option value="pasta">Pasta</option>
+                        <option value="pizza">Pizza</option>
+                        <option value="pescado">Pescado</option>
+                    </select>
+                </li>
+            </ul>
+           
+        </fieldset>
+
+             <button type="submit">Enviar</button>
+             <button type="reset">Restablecer</button>
+
+        </form>
+    </main>
+
+
+    <footer>@ Ruth 2023</footer>
+
+</body>
+
+</html>

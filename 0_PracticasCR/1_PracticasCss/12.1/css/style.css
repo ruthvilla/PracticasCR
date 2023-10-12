@@ -1,0 +1,91 @@
+
+/*Estilos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header{
+    margin-bottom: 1.5rem;
+}
+
+main{
+    padding: 2rem;
+    background-color: white;
+}
+
+body{
+    background-color: rgb(192, 243, 235);
+    max-width: 1200px;
+    min-height: 100vh;
+}
+
+/*Estilos del index*/
+
+#intro{ 
+    font-style: italic; 
+    font-size: 1.2rem;
+}
+
+.cabecera-gris{ 
+    color: grey; 
+}
+
+#mifoto{
+    width: 200px;
+    border: 4px blue;
+    border-radius: 50%;
+}
+
+#inicio{
+    background-image:url(../img/fotoFondoPracticasCR.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+#bg-inicio{
+    width: 50%;
+    min-width: 300px;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Estilos de about*/
+
+.listas{
+    margin: 1.5rem 0;
+    padding: 1rem;
+    min-width: 60%;
+}
+
+.listas li{
+    margin-left: 3rem;
+}
+
+iframe{
+    border: 2px red;
+    border-radius: 10px;
+}
+
+/*Estilos de contact*/
+
+address{
+    margin: 1rem;
+}
+
+fieldset{
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}

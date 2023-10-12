@@ -1,0 +1,185 @@
+
+/*Estilos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header li, form li {
+    list-style: none;
+}
+
+             /*Estilos generales header*/
+
+header{
+    background-color: #333;
+    color: white;
+    height: 4.5rem;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin-left: 3rem;
+}
+
+
+nav ul{
+    margin-right: 3rem;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a{
+    padding: 0.5rem 1rem;
+}
+
+header nav ul li a:hover{
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+              /*Estilos generales main*/
+
+main {
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(44, 136, 122);
+    max-width: 1200px;
+    min-height: 100vh;
+}
+
+             /*Estilos generales footer*/
+
+footer {
+    background-color: #333;
+    color: white;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Estilos particulares del index*/
+
+#intro { 
+    font-style: italic; 
+    font-size: 1.2rem;
+}
+
+.cabecera-gris { 
+    color: grey; 
+}
+
+#mifoto {
+    width: 200px;
+    border: 4px blue;
+    border-radius: 50%;
+}
+
+#inicio{
+    background-image:url(../img/fotoFondoPracticasCR.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+#bg-inicio{
+    width: 50%;
+    min-width: 300px;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*Estilos particulares de about*/
+
+.listas {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    min-width: 60%;
+}
+
+.listas li {
+    margin-left: 3rem;
+}
+
+iframe {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/*Estilos particulares de contact*/
+
+address{
+    margin: 1rem;
+}
+
+fieldset{
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons li{
+    width: 49%;
+}
+
+.buttons button{
+    border: none;
+    width: 100%;
+    padding: 0.7rem;
+    color: white;
+    background-color: #666;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.buttons:hover{
+    background-color: #555;
+    cursor: pointer;
+}
+
+input, textarea{
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 0.7rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    background-color: whitesmoke;
+}
+
+.one-line {
+    display: flex;
+    align-items: baseline;
+}
