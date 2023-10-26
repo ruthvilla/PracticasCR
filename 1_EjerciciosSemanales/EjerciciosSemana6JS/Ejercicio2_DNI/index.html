@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio DNI</title>
+</head>
+<body>
+    <p>
+        En el archivo index.js hay una función que recibe un DNI y lo valida.
+
+        El Documento Nacional de Identidad de España (DNI) es el documento de identidad que se expide en España, cada DNI tiene un identificador único compuesto por un número de 8 cifras y una letra, por ejemplo: 99999999-R
+
+        ¿Sabías que la letra del DNI es un sistema de validación, ya que se obtiene a partir del número mediante un sencillo algoritmo?
+
+        Para obtener la letra correspondiente a un número de DNI hay que obtener el resto (en la documentación de JavaScript puedes buscar el operador aritmético para calcular el resto)** **de la división del número entre 23. Ese resto será un número entre 0 y 22. Si usamos ese número como índice en el siguiente Array la letra será la correspondiente a ese índice:
+        const letras = [ "T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"];
+        Por ejemplo si el resto de dividir el número entre 23 es 4 la letra será G.
+        Tienes que centralizar el sistema de errores (un único console.error). Si alguna de las comprobaciones falla, lanzar un error de JavaScript  que diga "ERROR:" y el mensaje correspondiente.
+
+        Para esto tienes que usar throw, el objeto Error de JavaScript y try/catch
+    </p>
+   <script src="./script.js"></script> 
+</body>
+</html>
