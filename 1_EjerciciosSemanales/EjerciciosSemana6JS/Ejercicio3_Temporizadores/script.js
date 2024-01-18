@@ -1,6 +1,6 @@
 "use strict"
 
-let contador=0;
+let contador=1;
 
 const temporizador = setInterval(function(){
     if(contador%5===0){

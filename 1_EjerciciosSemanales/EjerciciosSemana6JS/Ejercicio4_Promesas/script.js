@@ -17,6 +17,7 @@ function myFuncion() {
   
   // Escribe aquí tu código
   
+  
   myPromise
 
     .then(resultado => {

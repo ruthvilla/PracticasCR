@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "06.1practicanodeparte2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node arguments.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
